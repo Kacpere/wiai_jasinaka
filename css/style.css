@@ -1,0 +1,87 @@
+.nav-wrapper {
+  background: linear-gradient(to right, #c0b183, #DDD0C0); //to right,	#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.parallax-container {
+  height: 590px;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container {
+    height: 300px;
+  }
+  .col.s3 {
+    width: 0px;
+  }
+}
+
+.col.s3 {
+  width: 0px;
+  background: linear-gradient(#373737, #444444); //#F5F5F5;
+}
+
+.section {
+  background-color: #F5F5F5;
+}
+
+#stopka {
+  height: 100px;
+}
+
+#left {
+  width: 4vw;
+  height: 590px;
+  font-size: 2px;
+  padding: 1px;
+}
+
+#left a {
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+}
+
+#mobile-demo a {
+  height: 60px;
+}
+
+#dropdown1 a {
+  color: #373737;
+}
+
+#dropdown2 a {
+  color: #373737;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+#par1 {
+  height: 400px;
+}
+
+#webicon a {
+  font-size: 27px;
+}
+
+.btn-flat {
+  width: 100%;
+  height: 40px;
+  color: #F4F2EF;
+  ;
+}
+
+div {
+  text-align: justify;
+}
+
+a.capitalize {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-family: "Roboto";
+}
+
+.page-footer {
+  background-color: #373737 !important;
+  font-size: 14px;
+}
